@@ -9,7 +9,7 @@ export default async function conectar(){
             host: '127.0.0.1',
             user: process.env.USER_DB, // ! depolitodev
             password: process.env.PASSWORD_DB,  // ! depolitodev
-            database: 'cloud', 
+            database: process.env.DATABASE, 
             waitForConnections: true,
             connectionLimit: 10,
             maxIdle: 10, // max idle connections, the default value is the same as `connectionLimit`

@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `pessoa`;
+
+CREATE TABLE `pessoa` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `pessoa` VALUES (1,'matheus'),(2,'janaina'),(3,'douglas'),(4,'felipe');
