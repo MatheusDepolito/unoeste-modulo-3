@@ -1,3 +1,7 @@
+/// Rodar no database seu e informar no env
+
+
+
 DROP TABLE IF EXISTS `pessoa`;
 
 CREATE TABLE `pessoa` (

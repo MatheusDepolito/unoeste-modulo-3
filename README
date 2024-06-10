@@ -1,0 +1,11 @@
+criar arquivo .env com o database do seu banco mysql, informar o user e o password tambem conforme o .env.modelo
+
+
+link do git 
+https://github.com/MatheusDepolito/unoeste-modulo-3
+
+link docker
+https://hub.docker.com/r/matheusdepolito/cloud
+
+
+script do banco em script.txt
